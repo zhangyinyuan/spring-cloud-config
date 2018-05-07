@@ -6,8 +6,8 @@ spring:
     name: spring-cloud-config-client-8300
 eureka:
   client:
-  service-url:
-    defaultZone: http://eurekaserver9000.com:9000/eureka/,http://eurekaserver9001.com:9001/eureka/,http://eurekaserver9002.com:9002/eureka/
+    service-url:
+        defaultZone: http://eurekaserver9000.com:9000/eureka/,http://eurekaserver9001.com:9001/eureka/,http://eurekaserver9002.com:9002/eureka/
 
 ---
 server:
