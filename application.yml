@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: spring-cloud-config-server-8200-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: spring-cloud-config-server-8200-test
